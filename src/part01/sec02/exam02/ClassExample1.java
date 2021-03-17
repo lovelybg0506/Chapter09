@@ -13,6 +13,9 @@ public class ClassExample1 {
 		System.out.println("상품코드: "+obj.goodsCode);
 		System.out.println("재고수량: "+obj.stockNum);
 		
+		obj.subtractStock(500);
+		System.out.println("재고수량: "+obj.stockNum);
+		
 	}
 
 }
