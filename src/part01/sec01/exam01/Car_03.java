@@ -1,6 +1,6 @@
 package part01.sec01.exam01;
 
-public class Car {
+public class Car_03 {
 	int speed;
 	
 	void run() {
@@ -8,7 +8,7 @@ public class Car {
 	}
 	
 	public static void main(String[] args) {
-		Car myCar=new Car();
+		Car_03 myCar=new Car_03();
 		myCar.speed=60;
 		myCar.run();
 
