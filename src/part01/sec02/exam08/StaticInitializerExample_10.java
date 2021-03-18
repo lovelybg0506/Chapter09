@@ -10,7 +10,20 @@ class HundredNumbers{
 			arr[cnt]=cnt;
 		}
 	}
+//===============================================================	
+	static int From1To10Sum;
+	
+	static {
+		int sum=0;
+		for(int i=1; i<=10; i++) {
+			sum+=i;
+		}
+		From1To10Sum = sum;
+	}
+	
+//	============================================================
 }
+
 
 
 public class StaticInitializerExample_10 {
@@ -19,6 +32,8 @@ public class StaticInitializerExample_10 {
 		System.out.println(HundredNumbers.arr[35]);
 		System.out.println(HundredNumbers.arr[27]);
 		System.out.println(HundredNumbers.arr[0]);
+	
+		System.out.println(HundredNumbers.From1To10Sum);
 		
 	}
 
